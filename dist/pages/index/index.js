@@ -26,7 +26,7 @@
  * @Author: SunLin
  * @Date: 2022-07-04 14:10:38
  * @LastEditors: SunLin
- * @LastEditTime: 2022-11-04 17:28:56
+ * @LastEditTime: 2022-11-17 17:11:47
  * @Description: 
  */
 
@@ -58,9 +58,9 @@ var Index = Object(mobx_react__WEBPACK_IMPORTED_MODULE_4__[/* observer */ "b"])(
     }
   };
 
-  Object(_tarojs_taro__WEBPACK_IMPORTED_MODULE_2__["useDidShow"])(function () {//counterStore.changeSelected(0);
+  Object(_tarojs_taro__WEBPACK_IMPORTED_MODULE_2__["useDidShow"])(function () {//dataStore.changeSelected(0);
   });
-  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_3__[/* View */ "d"], {
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_3__[/* View */ "b"], {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_3__[/* Button */ "a"], {
       onClick: function onClick() {
         clickFunc("addparams");
@@ -71,9 +71,9 @@ var Index = Object(mobx_react__WEBPACK_IMPORTED_MODULE_4__[/* observer */ "b"])(
         clickFunc("add");
       },
       children: "add count"
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_3__[/* View */ "d"], {
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_3__[/* View */ "b"], {
       children: ["counter:", _store_counter__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"].counter]
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_3__[/* View */ "d"], {
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_3__[/* View */ "b"], {
       children: ["i:", i]
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_3__[/* Button */ "a"], {
       onClick: function onClick() {

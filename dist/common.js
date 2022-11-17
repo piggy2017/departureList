@@ -18,7 +18,7 @@
  * @Description: 
  */
 
-var counterStore = Object(mobx__WEBPACK_IMPORTED_MODULE_0__[/* observable */ "l"])({
+var dataStore = Object(mobx__WEBPACK_IMPORTED_MODULE_0__[/* observable */ "l"])({
   counter: 100,
   counterStore: function counterStore() {
     this.counter++;
@@ -44,7 +44,7 @@ var counterStore = Object(mobx__WEBPACK_IMPORTED_MODULE_0__[/* observable */ "l"
     this.selected = index;
   }
 });
-/* harmony default export */ __webpack_exports__["a"] = (counterStore);
+/* harmony default export */ __webpack_exports__["a"] = (dataStore);
 
 /***/ })
 

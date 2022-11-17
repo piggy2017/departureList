@@ -2,7 +2,7 @@
   "miniprogramRoot": "",
   "projectname": "myApp",
   "description": "项目配置文件，详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
-  "appid": "wx590e41e42def13c0",
+  "appid": "wx7b9ddf527ac0ad63",
   "setting": {
     "urlCheck": true,
     "es6": false,
@@ -29,8 +29,7 @@
     "disableUseStrict": false,
     "showES6CompileOption": false,
     "useCompilerPlugins": false,
-    "useStaticServer": true,
-    "minifyWXML": true
+    "useStaticServer": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.27.0",

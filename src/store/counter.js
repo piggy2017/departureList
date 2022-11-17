@@ -7,7 +7,7 @@
  */
 import { observable } from 'mobx'
 
-const counterStore = observable({
+const dataStore = observable({
   counter: 100,
   counterStore() {
     this.counter++
@@ -34,4 +34,4 @@ const counterStore = observable({
   }
 })
 
-export default counterStore
+export default dataStore

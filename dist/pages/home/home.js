@@ -24,6 +24,14 @@
  * @Author: SunLin
  * @Date: 2022-11-04 14:36:27
  * @LastEditors: SunLin
+ * @LastEditTime: 2022-11-17 17:11:23
+ * @Description: 
+ */
+
+/*
+ * @Author: SunLin
+ * @Date: 2022-11-04 14:36:27
+ * @LastEditors: SunLin
  * @LastEditTime: 2022-11-04 17:29:22
  * @Description: 
  */
@@ -36,9 +44,9 @@
 
 var Home = Object(mobx_react__WEBPACK_IMPORTED_MODULE_3__[/* observer */ "b"])(function (prop) {
   console.log("prop", prop);
-  Object(_tarojs_taro__WEBPACK_IMPORTED_MODULE_1__["useDidShow"])(function () {//counterStore.changeSelected(1);
+  Object(_tarojs_taro__WEBPACK_IMPORTED_MODULE_1__["useDidShow"])(function () {//dataStore.changeSelected(1);
   });
-  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "d"], {
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "b"], {
     children: "home page"
   });
 });

@@ -1,12 +1,12 @@
 import { Component } from 'react'
 import { Provider } from 'mobx-react'
 
-import counterStore from './store/counter'
+import dataStore from './store/counter'
 
 import './app.styl'
 
 const store = {
-  counterStore
+  dataStore
 }
 
 class App extends Component {

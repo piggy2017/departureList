@@ -2,6 +2,13 @@
  * @Author: SunLin
  * @Date: 2022-11-04 14:36:27
  * @LastEditors: SunLin
+ * @LastEditTime: 2022-11-17 17:11:23
+ * @Description: 
+ */
+/*
+ * @Author: SunLin
+ * @Date: 2022-11-04 14:36:27
+ * @LastEditors: SunLin
  * @LastEditTime: 2022-11-04 17:29:22
  * @Description: 
  */
@@ -11,13 +18,13 @@ import { View, Image, Progress, Swiper, SwiperItem, Picker, Canvas, Text, Button
 import { observer, inject } from 'mobx-react'
 
 import './home.styl'
-import counterStore from '../../store/counter';
+import dataStore from '../../store/counter';
 
 const Home = observer((prop) => {
     console.log("prop", prop);
 
     useDidShow(() => {
-        //counterStore.changeSelected(1);
+        //dataStore.changeSelected(1);
     })
     return (
         <View>

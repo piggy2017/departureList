@@ -36,7 +36,7 @@ require("./taro");
 
 
 var store = {
-  counterStore: _store_counter__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"]
+  dataStore: _store_counter__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"]
 };
 
 var App = /*#__PURE__*/function (_Component) {
@@ -112,7 +112,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var config = {"pages":["pages/index/index","pages/home/home"],"window":{"backgroundTextStyle":"light","navigationBarBackgroundColor":"#fff","navigationBarTitleText":"WeChat","navigationBarTextStyle":"black"},"tabBar":{"custom":true,"list":[{"iconPath":"./static/tabImg/sign1.png","selectedIconPath":"./static/tabImg/sign2.png","pagePath":"pages/index/index","text":"首页"},{"iconPath":"./static/tabImg/sign3.png","selectedIconPath":"./static/tabImg/sign4.png","pagePath":"pages/home/home","text":"我的"}],"usingComponents":{"customtabbar":"custom-tab-bar/index"},"color":"#828282","selectedColor":"#2469FE","backgroundColor":"#fff","borderStyle":"black"}};
+var config = {"pages":["pages/index/index","pages/home/home"],"window":{"backgroundTextStyle":"light","navigationBarBackgroundColor":"#fff","navigationBarTitleText":"WeChat","navigationBarTextStyle":"black"},"tabBar":{"list":[{"iconPath":"./static/tabImg/sign1.png","selectedIconPath":"./static/tabImg/sign2.png","pagePath":"pages/index/index","text":"首页"},{"iconPath":"./static/tabImg/sign3.png","selectedIconPath":"./static/tabImg/sign4.png","pagePath":"pages/home/home","text":"我的"}],"color":"#828282","selectedColor":"#2469FE","backgroundColor":"#fff","borderStyle":"black"}};
 _tarojs_runtime__WEBPACK_IMPORTED_MODULE_1__["window"].__taroAppConfig = config
 var inst = App(Object(_tarojs_runtime__WEBPACK_IMPORTED_MODULE_1__["createReactApp"])(_node_modules_babel_loader_lib_index_js_app_jsx__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], react__WEBPACK_IMPORTED_MODULE_4__, react_dom__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], config))
 
